@@ -1,0 +1,30 @@
+body { font-family: Arial; padding: 20px; }
+
+#botBubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999;
+    font-size: 18px;
+}
+
+#botWindow {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 320px;
+    max-height: 400px;
+    overflow-y: auto;
+    background: white;
+    border: 2px solid #28a745;
+    padding: 10px;
+    display: none;
+    z-index: 9999;
+}
+
+.botMsg { color: green; margin-bottom: 5px; }
